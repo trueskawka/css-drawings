@@ -1,0 +1,63 @@
+body {
+  background-color: gainsboro;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+  height: 100px;
+  width: 450px;
+}
+
+.mustache {
+  height: 100px;
+  width: 100px;
+  background-color: transparent;
+  position: absolute;
+  border-radius: 120px 120px;
+  box-shadow: 140px 0 0 black,
+              220px 0 0 black;
+}
+
+.mustache:before {
+  content: '';
+  height: 100px;
+  width: 120px;
+  left: 60px;
+  top: -100px;
+  position: absolute;
+  border-bottom: 100px solid black;
+  border-radius: 0 0 0 100%;
+  transform: rotate(-40deg);
+  transform-origin: right 120px;
+  animation: shakeLeft 1s ease-in-out infinite;
+}
+
+.mustache:after {
+  content: '';
+  position: absolute;
+  height: 100px;
+  width: 120px;
+  left: 280px;
+  top: -100px;
+  border-bottom: 100px solid black;
+  border-radius: 0 0 100% 0;
+  transform-origin: left 120px;
+  transform: rotate(40deg);
+  animation: shakeRight 1s ease-in-out infinite;
+}
+
+@keyframes shakeLeft {
+  0% { transform: rotate(-50deg); }
+  50% { transform: rotate(-30deg); }
+  100% { transform: rotate(-50deg); }
+}
+
+@keyframes shakeRight {
+  0% { transform: rotate(50deg); }
+  50% { transform: rotate(30deg); }
+  100% { transform: rotate(50deg); }
+}
