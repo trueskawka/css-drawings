@@ -1,0 +1,46 @@
+body {
+  background-color: khaki;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+  height: 100px;
+  width: 100px;
+}
+
+.sun {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: gold;
+  border-radius: 50%;
+  animation: circleAround 1s linear infinite;
+}
+
+.sun:after {
+  content: '';
+  position: absolute;
+  top: 40px;
+  left: -40px;
+  background-color: gold;
+  color: gold;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  box-shadow: 80px -80px 0 currentColor,
+    160px 0px 0 currentColor,
+    80px 80px 0 currentColor,
+    25px 55px 0 currentColor,
+    135px 55px 0 currentColor,
+    25px -55px 0 currentColor,
+    135px -55px 0 currentColor;
+}
+
+@keyframes circleAround {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
