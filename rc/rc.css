@@ -8,13 +8,13 @@ body {
 
 .container {
   position: relative;
-  height: 400px;
+  height: 380px;
   width: 300px;
 }
 
 .rc {
   background-color: black;
-  height: 400px;
+  height: 380px;
   width: 300px;
 }
 

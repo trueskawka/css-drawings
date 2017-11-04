@@ -1,0 +1,137 @@
+body {
+  background-color: white;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+  height: 500px;
+  width: 600px;
+}
+
+.x5 {
+  position: relative;
+  height: 500px;
+  width: 600px;
+  color: #ef4c23;
+
+  background:
+    /*left side white*/
+    linear-gradient(
+      135deg,
+      white 0%, white 50%,
+      currentColor 50%, currentColor 60%,
+      transparent 60%, transparent 100%
+    ) -140px 250px,
+      linear-gradient(
+      45deg,
+      white 0%, white 50%,
+      currentColor 50%, currentColor 60%,
+      transparent 60%, transparent 100%
+    ) -140px 0,
+    /*left side orange*/
+    linear-gradient(
+      135deg,
+      currentColor 60%,
+      transparent 40%
+    ) -20px 250px,
+    linear-gradient(
+      45deg,
+      currentColor 60%,
+      transparent 40%
+    ) -20px 0,
+    /*overlap*/
+    linear-gradient(
+      135deg,
+      white 50%,
+      transparent 50%
+    ) 110px 250px,
+    linear-gradient(
+      45deg,
+      white 50%,
+      transparent 50%
+    ) 110px 0,
+    /*right side white*/
+    linear-gradient(
+      -135deg,
+      white 0%, white 50%,
+      currentColor 50%, currentColor 60%,
+      transparent 60%, transparent 100%
+    ) 300px 250px,
+    linear-gradient(
+      -45deg,
+      white 0%, white 50%,
+      currentColor 50%, currentColor 60%,
+      transparent 60%, transparent 100%
+    ) 300px 0,
+    /*right side orange*/
+    linear-gradient(
+      -135deg,
+      currentColor 60%,
+      white 40%
+    ) 180px 250px,
+    linear-gradient(
+      -45deg,
+      currentColor 60%,
+      white 40%
+    ) 180px 0;
+
+  background-size: 75% 50%;
+  background-repeat: no-repeat;
+
+  transform: scale(.5, .5);
+
+  animation: animateX linear 3s infinite;
+}
+
+.x5:after {
+  content: '';
+  display: block;
+  position: relative;
+  left: -42px;
+  top: -184px;
+
+  height: 135px;
+  width: 230px;
+  background-color: currentColor;
+  border-radius: 100px / 80px;
+  transform: rotate(45deg);
+
+  box-shadow:
+    650px 0px 0 0 currentColor;
+}
+
+.x5:before {
+  content: '';
+  display: block;
+  position: relative;
+  left: 420px;
+  top: -48px;
+
+  height: 135px;
+  width: 230px;
+  background-color: currentColor;
+  border-radius: 100px / 80px;
+  transform: rotate(-45deg);
+
+  box-shadow:
+    -650px 0px 0 0 currentColor;
+}
+
+@keyframes animateX {
+  0% {
+    transform: scale(0.50, 0.50);
+  }
+  25% {
+    transform: scale(0.52, 0.52);
+  }
+  50% {
+    transform: scale(0.54, 0.54);
+  }
+  75% {
+    transform: scale(0.52, 0.52);
+  }
+}
