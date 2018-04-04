@@ -12,3 +12,4 @@ Experiments in drawing and animating with pure CSS.
 8. [Powerpuff Girls - Buttercup](/powerpuff)
 9. [Octopus emoji](/octopus)
 10. [Zulip group chat logo](/zulip)
+11. [Haskell logo](/haskell)

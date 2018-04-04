@@ -1,0 +1,105 @@
+body {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+  height: 400px;
+  width: 300px;
+}
+
+.haskell {
+  width: 380px;
+  height: 288px;
+  
+  color: orange;
+  
+  background:
+    /* black chevron */
+    /* upper part */
+    linear-gradient(
+      237.5deg,
+      transparent 77px,
+      #101c24 77px,
+      #101c24 129px,
+      transparent 129px
+    ) 0 0,
+    /* lower part */
+    linear-gradient(
+      122.5deg,
+      transparent 80px,
+      #101c24 80px,
+      #101c24 132px,
+      transparent 132px
+    ) 0 144px,
+    /* lambda */
+    /* upper part */
+    linear-gradient(
+      237.5deg,
+      transparent 77px,
+      currentColor 77px,
+      currentColor 129px,
+      transparent 129px
+    ) 85px 0,
+    /* lower left part */
+    linear-gradient(
+      122.5deg,
+      transparent 80px,
+      currentColor 80px,
+      currentColor 132px,
+      transparent 132px
+    ) 85px 144px,
+    /* lower right part */
+    linear-gradient(
+      237.5deg,
+      transparent 77px,
+      currentColor 77px,
+      currentColor 129px,
+      white 129px
+    ) 176px 144px,
+    
+    /* white spacer */
+    /* upper part */
+    linear-gradient(
+      237.5deg,
+      transparent 77px,
+      white 77px,
+      white 129px,
+      transparent 129px
+    ) 110px 0,
+    /* lower part */
+    linear-gradient(
+      237.5deg,
+      transparent 80px,
+      white 80px,
+      white 132px,
+      transparent 132px
+    ) 206px 144px,
+    
+    /* black lines */
+    /* upper line */
+    linear-gradient(
+      180deg,
+      white 80px,
+      #101c24 80px,
+      #101c24 132px,
+      white 132px
+    ) 220px 0px,
+    
+    /* lower line */
+    linear-gradient(
+      180deg,
+      white 12px,
+      #101c24 12px,
+      #101c24 64px,
+      white 64px
+    ) 220px 144px;
+  
+  background-size: 156px 144px;
+  background-repeat: no-repeat;
+
+  transform: scale(2);
+}
