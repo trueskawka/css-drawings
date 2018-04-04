@@ -1,0 +1,184 @@
+body {
+  background-color: gainsboro;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+  height: 200px;
+}
+
+.buttercup {
+  height: 400px;
+  width: 200px;
+  
+  color: #6FA748;
+  
+  background:
+    /* correct fringe */
+    radial-gradient(
+     ellipse at bottom,
+      transparent 46%,
+      black 49.5%,
+      gainsboro 50%
+    ) 0 0 / 200px 75px,
+    
+    /* fringe */
+    linear-gradient(
+      45deg,
+      transparent 30%,
+      black 30%
+    ) 93px 25px / 70px 35px,
+    linear-gradient(
+      -45deg,
+      transparent 30%,
+      black 30%
+    ) 38px 25px / 70px 35px,
+    
+    /* right eye */
+    radial-gradient(
+      white 29%,
+      transparent 30.5%
+    ) 103px 47px / 50px 50px,
+    radial-gradient(
+      black 40%,
+      transparent 40.5%
+    ) 96px 37px / 70px 70px,
+    radial-gradient(
+      currentColor 46%,
+      transparent 47%
+    ) 97px 33px / 78px 78px,
+    radial-gradient(
+      white 48%,
+      transparent 49%
+    ) 96px 31px / 82px 82px,
+    radial-gradient(
+      black 49.5%,
+      transparent 50%
+    ) 95px 30px / 85px 85px,
+    
+    /* left eye */
+    radial-gradient(
+      white 29%,
+      transparent 30.5%
+    ) 47px 47px / 50px 50px,
+    radial-gradient(
+      black 40%,
+      transparent 40.5%
+    ) 36px 37px / 70px 70px,
+    radial-gradient(
+      currentColor 46%,
+      transparent 47%
+    ) 27px 33px / 78px 78px,
+    radial-gradient(
+      white 48%,
+      transparent 49%
+    ) 23px 31px / 82px 82px,
+    radial-gradient(
+      black 49.5%,
+      transparent 50%
+    ) 22px 30px / 85px 85px,
+    
+    /* mouth */
+    radial-gradient(
+      ellipse at top,
+      #F8D4BB 45%,
+      transparent 50%
+    ) 87px 98px / 25px 20px,
+    radial-gradient(
+      ellipse at top,
+      black 48%,
+      transparent 50%
+    ) 87px 98px / 25px 20px,
+    
+    /* head */
+    radial-gradient(
+      #F8D4BB 45.5%,
+      black 46%,
+      black 49.5%,
+      transparent 50%
+    ) 0 0 / 200px 150px,
+    
+    /* side hair */
+    radial-gradient(
+      ellipse at top,
+      black 44.5%,
+      transparent 45%
+    ) -25px 75px / 250px 70px,
+    
+    /* dress */
+    linear-gradient(
+      to bottom,
+      currentColor 0%,
+      currentColor 25%,
+      black 25%,
+      black 60%,
+      currentColor 60%,
+      currentColor 100%
+    ) 80px 120px / 40px 50px,
+    linear-gradient(
+      to bottom,
+      black,
+      black
+    ) 75px 116px / 50px 60px,
+    
+    /* hands */
+    radial-gradient(
+      #F8D4BB 47.5%,
+      transparent 48%
+    ) 105px 105px / 30px 80px,
+    radial-gradient(
+      black 49.5%,
+      transparent 50%
+    ) 108px 105px / 30px 80px,
+    radial-gradient(
+      #F8D4BB 47.5%,
+      transparent 48%
+    ) 65px 105px / 30px 80px,
+    radial-gradient(
+      black 49.5%,
+      transparent 50%
+    ) 62px 105px / 30px 80px,
+    
+    /* legs */
+    linear-gradient(
+      to right,
+      black 8%,
+      white 8%,
+      white 45%,
+      black 45%,
+      black 55%,
+      white 55%,
+      white 92%,
+      black 92%
+    ) 77.5px 150px / 45px 60px,
+    
+    /* feet */
+    radial-gradient(
+      ellipse at top,
+      white 49.5%,
+      transparent 50%
+    ) 99px 212px / 24px 10px,
+    radial-gradient(
+      ellipse at top,
+      black 49.5%,
+      transparent 50%
+    ) 93px 208px / 35px 30px,
+    radial-gradient(
+      ellipse at top,
+      white 49.5%,
+      transparent 50%
+    ) 78px 212px / 24px 10px,
+    radial-gradient(
+      ellipse at top,
+      black 49.5%,
+      transparent 50%
+    ) 72.5px 208px / 35px 30px;
+  
+  background-repeat: no-repeat;
+  
+  transform: scale(2);
+}

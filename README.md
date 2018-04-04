@@ -9,3 +9,4 @@ Experiments in drawing and animating with pure CSS.
 5. [Recurse Center logo](/rc)
 6. [Xfive logo](/x5)
 7. [Google Summer of Code logo](/gsoc)
+8. [Powerpuff Girls - Buttercup](/powerpuff)
