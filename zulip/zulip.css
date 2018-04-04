@@ -1,0 +1,99 @@
+body {
+  background-color: white;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+  height: 550px;
+  width: 550px;
+}
+
+.zlp {
+  color: #b4ddd0;
+  width: 512px;
+  height: 512px;
+    
+  border-radius: 50%;
+  
+  background: 
+    linear-gradient(
+      61deg,
+      currentColor 51%,
+      transparent 52%,
+      transparent 100%
+    ) 140px 124px / 34px 68px,
+    
+    linear-gradient(
+      90deg,
+      #1e965a 0%,
+      #19492b 100%
+    ) 140px 125px / 200px 60px,
+    
+    currentColor;
+  
+  background-repeat: no-repeat;
+}
+
+.zlp:before {
+  content: "";
+  width: 60px;
+  height: 280px;
+  position: absolute;
+  left: 234px;
+  top: 105px;
+  border: none;
+  
+  background:
+   linear-gradient(
+      -160deg,
+      transparent 0%,
+      transparent 50%,
+      currentColor 51%,
+      currentColor 100%
+    ) 0px 238px / 60px 60px,
+    
+    linear-gradient(
+      0deg,
+      #1e965a 0%,
+      #19492b 100%
+    );
+  
+  background-repeat: no-repeat;
+  transform: rotate(-135deg);
+}
+
+.zlp:after {
+  content: "";
+  width: 230px;
+  height: 60px;
+  position: absolute;
+  left: 145px;
+  top: 324px;
+  
+  background:
+    linear-gradient(
+      61deg,
+      transparent 51%,
+      currentColor 52%,
+      currentColor 100%
+    ) 198px 0 / 34px 68px, 
+    
+   linear-gradient(
+      61deg,
+      currentColor 51%,
+      transparent 52%,
+      transparent 100%
+    ) 0 0 / 34px 68px,
+    
+    linear-gradient(
+      90deg,
+      #1e965a 0%,
+      #19492b 100%
+    );
+  
+  background-repeat: no-repeat;
+}
