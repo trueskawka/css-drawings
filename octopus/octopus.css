@@ -1,0 +1,379 @@
+body {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+  height: 1000px;
+  width: 900px;
+}
+
+.octopus {
+  height: 1000px;
+  width: 900px;
+  
+  color: #ed6c30;
+ 
+  background: 
+    /* mouth */
+    radial-gradient(
+      ellipse closest-side,
+      #2F2F2F 98.5%,
+      transparent 100%
+    ) 333px 471px / 72px 77px,
+    
+    radial-gradient(
+      ellipse closest-side,
+      #FCD4B5 98.5%,
+      transparent 100%
+    ) 301.5px 441px / 135.5px 135.5px,
+    
+    radial-gradient(
+      ellipse closest-side,
+      currentColor 98.5%,
+      transparent 100%
+    ) 286.5px 394px / 176px 124px,
+    
+    radial-gradient(
+      ellipse closest-side,
+      #855C52 98.5%,
+      transparent 100%
+    ) 305.5px 420px / 175px 158px,
+    
+    /* eyes */
+    radial-gradient(
+      ellipse closest-side,
+      #2F2F2F 98.5%,
+      transparent 100%
+    ) 284.5px 320px / 70px 84px,
+    
+    radial-gradient(
+      ellipse closest-side,
+      #2F2F2F 98.5%,
+      transparent 100%
+    ) 446.5px 343px / 70px 84px,
+    
+    /* head */
+    radial-gradient(
+      ellipse closest-side,
+      currentColor 99.5%,
+      transparent 100%
+    ) 205px 70px / 490px 550px,
+    
+    /* big arms hands */
+    /* right hand */
+    radial-gradient(
+      ellipse closest-side,
+      #FCD4B5 98.5%,
+      transparent 100%
+    ) 742px 150px / 13px 20px,
+    
+    radial-gradient(
+      ellipse closest-side,
+      #FCD4B5 98.5%,
+      transparent 100%
+    ) 740px 111px / 15px 25px,
+    
+    radial-gradient(
+      ellipse at left,
+      currentColor 50%,
+      white 50%
+    ) 762px 76px / 20px 40px,
+    
+    radial-gradient(
+      ellipse closest-side,
+      white 99.5%,
+      transparent 100%
+    ) 758px 73px / 105px 128px,
+    
+    radial-gradient(
+      ellipse closest-side,
+      currentColor 99.5%,
+      transparent 100%
+    ) 702px 80px / 100px 125px,
+    
+    /* left hand */ 
+    radial-gradient(
+      ellipse closest-side,
+      #FCD4B5 98.5%,
+      transparent 100%
+    ) 145px 150px / 13px 20px,
+    
+    radial-gradient(
+      ellipse closest-side,
+      #FCD4B5 98.5%,
+      transparent 100%
+    ) 145px 111px / 15px 25px,
+    
+    radial-gradient(
+      ellipse at right,
+      currentColor 50%,
+      white 50%
+    ) 118px 76px / 20px 40px,
+    
+    radial-gradient(
+      ellipse closest-side,
+      white 99.5%,
+      transparent 100%
+    ) 38px 73px / 105px 128px,
+    
+    radial-gradient(
+      ellipse closest-side,
+      currentColor 99.5%,
+      transparent 100%
+    ) 98px 80px / 100px 125px,
+    
+    /* big arms */
+    /* left arm */
+    radial-gradient(
+      ellipse closest-side,
+      #FCD4B5 98.5%,
+      transparent 100%
+    ) 160px 565px / 17px 23px,
+    
+    radial-gradient(
+      ellipse closest-side,
+      #FCD4B5 98.5%,
+      transparent 100%
+    ) 120px 515px / 18px 30px,
+    
+    radial-gradient(
+      ellipse closest-side,
+      #FCD4B5 98.5%,
+      transparent 100%
+    ) 90px 460px / 20px 33px,
+    
+    radial-gradient(
+      ellipse closest-side,
+      #FCD4B5 98.5%,
+      transparent 100%
+    ) 70px 395px / 20px 33px,
+    
+    radial-gradient(
+      ellipse closest-side,
+      #FCD4B5 98.5%,
+      transparent 100%
+    ) 65px 330px / 18px 30px,
+    
+    radial-gradient(
+      ellipse closest-side,
+      #FCD4B5 98.5%,
+      transparent 100%
+    ) 80px 270px / 16px 28px,
+    
+    /* right arm */
+    radial-gradient(
+      ellipse closest-side,
+      #FCD4B5 98.5%,
+      transparent 100%
+    ) 725px 565px / 17px 23px,
+    
+    radial-gradient(
+      ellipse closest-side,
+      #FCD4B5 98.5%,
+      transparent 100%
+    ) 765px 515px / 18px 30px,
+    
+    radial-gradient(
+      ellipse closest-side,
+      #FCD4B5 98.5%,
+      transparent 100%
+    ) 795px 460px / 20px 33px,
+    
+    radial-gradient(
+      ellipse closest-side,
+      #FCD4B5 98.5%,
+      transparent 100%
+    ) 815px 395px / 20px 33px,
+    
+    radial-gradient(
+      ellipse closest-side,
+      #FCD4B5 98.5%,
+      transparent 100%
+    ) 820px 330px / 18px 30px,
+    
+    radial-gradient(
+      ellipse closest-side,
+      #FCD4B5 98.5%,
+      transparent 100%
+    ) 805px 270px / 16px 28px,
+    
+    /* both arms */
+    linear-gradient(
+      to bottom,
+      white,
+      white
+    ) 177.5px 50px / 545px 150px,
+    
+    radial-gradient(
+      ellipse closest-side,
+      white 99.5%,
+      transparent 100%
+    ) 137.5px 50px / 625px 550px,
+    
+    radial-gradient(
+      ellipse closest-side,
+      currentColor 99.5%,
+      transparent 100%
+    ) 45px 50px / 810px 645px,
+    
+    /* left upper arm */ 
+    radial-gradient(
+      ellipse closest-side,
+      #FCD4B5 98.5%,
+      transparent 100%
+    ) 118px 670px / 15px 20px,
+    
+    radial-gradient(
+      ellipse closest-side,
+      #FCD4B5 98.5%,
+      transparent 100%
+    ) 140px 695px / 12px 17px,
+    
+    radial-gradient(
+      ellipse at bottom,
+      currentColor 50%,
+      white 50%
+    ) 97px 642px / 50px 25px,
+    
+    radial-gradient(
+      ellipse closest-side,
+      white 99.5%,
+      transparent 100%
+    ) 60px 545px / 230px 125px,
+    
+    radial-gradient(
+      ellipse closest-side,
+      currentColor 99.5%,
+      transparent 100%
+    ) 100.5px 558px / 225px 180px,
+    
+    /* right upper arm */
+    radial-gradient(
+      ellipse closest-side,
+      #FCD4B5 98.5%,
+      transparent 100%
+    ) 680px 740px / 12px 17px,
+    
+    radial-gradient(
+      ellipse closest-side,
+      #FCD4B5 98.5%,
+      transparent 100%
+    ) 705px 725px / 17px 20px,
+    
+    radial-gradient(
+      ellipse closest-side,
+      #FCD4B5 98.5%,
+      transparent 100%
+    ) 730px 705px / 20px 26px,
+    
+    radial-gradient(
+      ellipse at bottom,
+      currentColor 50%,
+      white 50%
+    ) 730px 670px / 50px 22px,
+    
+    radial-gradient(
+      ellipse closest-side,
+      white 99.5%,
+      transparent 100%
+    ) 580px 520px / 225px 180px,
+    
+    radial-gradient(
+      ellipse closest-side,
+      currentColor 99.5%,
+      transparent 100%
+    ) 550px 590px / 225px 180px,
+    
+    /* left lower arm */ 
+    radial-gradient(
+      ellipse closest-side,
+      #FCD4B5 98.5%,
+      transparent 100%
+    ) 220px 840px / 20px 8px,
+    
+    radial-gradient(
+      ellipse closest-side,
+      #FCD4B5 98.5%,
+      transparent 100%
+    ) 190px 810px / 30px 25px,
+    
+    radial-gradient(
+      ellipse at bottom,
+      currentColor 49.5%,
+      transparent 50%
+    ) 153px 772px / 60px 20px,
+    
+    radial-gradient(
+      ellipse at top,
+      currentColor 49.5%,
+      transparent 50%
+    ) 118px 792px / 300px 100px,
+    
+    radial-gradient(
+      ellipse at top left,
+      currentColor 50%,
+      transparent 50%
+    ) 325px 505px / 200px 470px,
+     
+    radial-gradient(
+      ellipse closest-side,
+      white 99.5%,
+      transparent 100%
+    ) 97.5px 610px / 225px 180px,  
+    
+    radial-gradient(
+      ellipse closest-side,
+      currentColor 99.5%,
+      transparent 100%
+    ) 177.5px 640px / 225px 200px,
+    
+    /* right lower arm */
+    /* suction cups */
+    radial-gradient(
+      ellipse closest-side,
+      #FCD4B5 98.5%,
+      transparent 100%
+    ) 590px 850px / 20px 8px,
+    
+    radial-gradient(
+      ellipse closest-side,
+      #FCD4B5 98.5%,
+      transparent 100%
+    ) 620px 825px / 28px 22px,
+    
+    radial-gradient(
+      ellipse at bottom,
+      currentColor 49.5%,
+      transparent 50%
+    ) 633px 790px / 60px 20px,
+    
+   radial-gradient(
+      ellipse at top,
+      currentColor 49.5%,
+      transparent 50%
+    ) 472px 810px / 250px 80px,
+    
+    radial-gradient(
+      ellipse closest-side,
+      white 99.5%,
+      transparent 100%
+    ) 547.5px 630px / 225px 180px,
+    
+    radial-gradient(
+      ellipse closest-side,
+      currentColor 99.5%,
+      transparent 100%
+    ) 477.5px 670px / 225px 180px,
+    
+    radial-gradient(
+      ellipse at top right,
+      currentColor 50%,
+      transparent 50%
+    ) 324px 515px / 250px 480px;
+  
+  background-repeat: no-repeat;
+}

@@ -10,3 +10,4 @@ Experiments in drawing and animating with pure CSS.
 6. [Xfive logo](/x5)
 7. [Google Summer of Code logo](/gsoc)
 8. [Powerpuff Girls - Buttercup](/powerpuff)
+9. [Octopus emoji](/octopus)
