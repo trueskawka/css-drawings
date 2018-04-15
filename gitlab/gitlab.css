@@ -1,0 +1,89 @@
+body {
+  background-color: white;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+  height: 200px;
+}
+
+.gitlab {
+  height: 400px;
+  width: 500px;
+  
+  position: relative;
+  left: 50px;
+  
+  background:
+    linear-gradient(
+      -252deg,
+      #e24329 44%,
+      transparent 45%
+    ) 244px 150px / 105px 240px,
+    linear-gradient(
+      252deg,
+      #e24329 44%,
+      transparent 45%
+    ) 140px 150px / 105px 240px,
+    linear-gradient(
+      72deg,
+      transparent 44%,
+      white 44%
+    ) 384px 0 / 105px 300px,
+    linear-gradient(
+      -40deg,
+      white 44%,
+      transparent 44%
+    ) 220px 130px / 250px 300px,
+    linear-gradient(
+      -54deg,
+      #fca326 44%,
+      transparent 44%
+    ) 200px 100px / 250px 290px,
+    linear-gradient(
+      -72deg,
+      transparent 44%,
+      white 44%
+    ) 0 0 / 105px 300px,
+    linear-gradient(
+      40deg,
+      white 44%,
+      transparent 44%
+    ) 20px 130px / 250px 300px,
+    linear-gradient(
+      54deg,
+      #fca326 44%,
+      transparent 44%
+    ) 42px 100px / 250px 290px,
+    linear-gradient(
+      0deg,
+      #fc6d26,
+      #fc6d26
+    ) 65px 150px / 360px 240px,
+    linear-gradient(
+      72deg,
+      #e24329 44%,
+      transparent 45%
+    ) 374px 0 / 65px 150px,
+    linear-gradient(
+      -72deg,
+      #e24329 44%,
+      transparent 45%
+    ) 310px 0 / 65px 150px,
+    linear-gradient(
+      72deg,
+      #e24329 44%,
+      transparent 45%
+    ) 114px 0 / 65px 150px,
+    linear-gradient(
+      -72deg,
+      #e24329 44%,
+      transparent 45%
+    ) 50px 0 / 65px 150px;
+  
+  background-repeat: no-repeat;
+}
