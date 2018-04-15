@@ -1,0 +1,32 @@
+body {
+  background-color: white;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+  height: 600px;
+  width: 600px;
+}
+
+.dropbox {
+  height: 200px;
+  width: 200px;
+  
+  color: #007ee5;
+  
+  background-color: currentColor;
+  
+  transform: 
+    scaleY(.7)
+    rotate(45deg);
+  
+  box-shadow:
+    430px 230px 0 0 currentColor,
+    200px -200px 0 0 currentColor,
+    400px 0 0 0 currentColor,
+    200px 200px 0 0 currentColor
+}
