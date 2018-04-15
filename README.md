@@ -16,3 +16,4 @@ Experiments in drawing and animating with pure CSS.
 12. [Haskell logo](/haskell) - [CodePen](https://codepen.io/trueskawka/pen/wpXgavi)
 13. [Futurama Nibbler](/nibbler) - [CodePen](https://codepen.io/trueskawka/pen/ZxVBpp)
 14. [GitLab logo](/gitlab) - [CodePen](https://codepen.io/trueskawka/pen/bvPVPb)
+15. [Git logo](/git) - [CodePen](https://codepen.io/trueskawka/pen/aYgvpm)

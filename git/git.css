@@ -1,0 +1,64 @@
+body {
+  background-color: white;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+  height: 200px;
+}
+
+.git {
+  height: 400px;
+  width: 400px;
+  
+  border-radius: 60px;
+  
+  background:
+   /* bottom circle */
+   radial-gradient(
+      closest-side,
+      white 98%,
+      transparent 100%
+    ) 235px 215px / 60px 60px,
+    /* right circle */
+    radial-gradient(
+      closest-side,
+      white 98%,
+      transparent 100%
+    ) 245px 100px / 60px 60px,
+    /* left circle */
+    radial-gradient(
+      closest-side,
+      white 98%,
+      transparent 100%
+    ) 120px 100px / 60px 60px,
+    /* skewed line */
+    linear-gradient(
+      45deg,
+      transparent 45%,
+      white 44%,
+      white 56%,
+      transparent 55%
+    ) 150px 100px / 120px 180px,
+    /* straight line */
+    linear-gradient(
+      to bottom,
+      transparent 40%,
+      white 40%,
+      white 60%,
+      transparent 60%
+    ) 0 75px / 265px 110px,
+    #e24329;
+  
+  background-repeat: no-repeat;
+  
+  transform:
+    rotate(45deg);
+  
+  box-shadow:
+    inset 0 0 0 30px white;
+}
