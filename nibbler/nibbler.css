@@ -1,0 +1,138 @@
+body {
+  background-color: gainsboro;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+  height: 200px;
+
+}
+.nibbler {
+  height: 400px;
+  width: 300px;
+  
+  color: #FEF7DC;
+  
+  background:
+    radial-gradient(
+      currentColor 50%,
+      transparent 52%
+    ) 125px 235px / 40px 20px,
+    radial-gradient(
+      black,
+      black 52%,
+      transparent 55%
+    ) 120px 218px / 50px 20px,
+    radial-gradient(
+      currentColor,
+      currentColor 47%,
+      black 50%,
+      black 52%,
+      transparent 54%
+    ) 95px 208px / 100px 40px,
+    linear-gradient(
+      black, black
+    ) 92px 257px / 131px 3px,
+    radial-gradient(
+      at bottom,
+      currentColor 48.5%,
+      black 50%, 
+      black 51%,
+      transparent 52%
+    ) 37px 212px / 215px 45px,
+    linear-gradient(
+      -75deg,
+      transparent 50%,
+      black 52%,
+      white 54%
+    ) 190px 250px / 20px 30px,
+    linear-gradient(
+      75deg,
+      transparent 50%,
+      black 52%,
+      white 54%
+    ) 177px 250px / 20px 40px,
+    linear-gradient(
+      -75deg,
+      transparent 50%,
+      black 52%,
+      white 54%
+    ) 125px 230px / 20px 60px,
+    linear-gradient(
+      75deg,
+      transparent 50%,
+      black 52%,
+      white 54%
+    ) 107px 230px / 20px 60px,
+    radial-gradient(
+      currentColor,
+      currentColor 48.5%,
+      black 50%,
+      black 52%,
+      transparent 53%
+    ) 40px 215px / 200px 80px,
+    radial-gradient(
+      black,
+      black 46%,
+      transparent 50%
+    ) 133px 48px / 15px 15px,
+    radial-gradient(
+      white,
+      white 48%,
+      black 49.5%,
+      black 51%,
+      transparent 52%
+    ) 115px 30px / 50px 50px,
+    linear-gradient(
+      black, black
+    ) 133px 70px / 15px 50px,
+    radial-gradient(
+      black,
+      black 46%,
+      transparent 50%
+    ) 210px 190px / 18px 18px,
+    radial-gradient(
+      white,
+      white 48%,
+      black 49.5%,
+      black 51%,
+      transparent 52%
+    ) 170px 153px / 90px 90px,
+    radial-gradient(
+      black,
+      black 46%,
+      transparent 50%
+    ) 60px 190px / 18px 18px,
+    radial-gradient(
+      white,
+      white 48%,
+      black 49.5%,
+      black 51%,
+      transparent 52%
+    ) 25px 153px / 90px 90px,
+    radial-gradient(
+      black,
+      black 47%,
+      transparent 50%
+    ) 185px 150px / 70px 40px,
+    radial-gradient(
+      black,
+      black 47%,
+      transparent 50%
+    ) 30px 150px / 70px 40px,
+    radial-gradient(
+      black,
+      black 49%,
+      transparent 50%
+    ) 105px 105px / 70px 50px,
+    radial-gradient(
+      black,
+      black 49.5%,
+      transparent 50%
+    ) 0 92px / 280px 220px;
+  background-repeat: no-repeat;
+}

@@ -13,4 +13,5 @@ Experiments in drawing and animating with pure CSS.
 9. [Powerpuff Girls - Buttercup](/powerpuff) - [CodePen](https://codepen.io/trueskawka/pen/zWjQgq)
 10. [Octopus emoji](/octopus) - [CodePen](https://codepen.io/trueskawka/pen/GyGaeY)
 11. [Zulip group chat logo](/zulip) - [CodePen](https://codepen.io/trueskawka/pen/yprYYo)
-12. [Haskell logo](/haskell) - [CodePen](https://codepen.io/trueskawka/pen/wpXgav)
+12. [Haskell logo](/haskell) - [CodePen](https://codepen.io/trueskawka/pen/wpXgavi)
+13. [Futurama Nibbler](/nibbler) - [CodePen](https://codepen.io/trueskawka/pen/ZxVBpp)
