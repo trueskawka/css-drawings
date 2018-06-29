@@ -1,0 +1,36 @@
+body {
+  background-color: white;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+  height: 400px;
+}
+
+.youtube {
+  /* colors */
+  /* red #FF0000 */
+  height: 280px;
+  width: 450px;
+  
+  border-radius: 45px / 60px;
+
+  background: 
+    linear-gradient(
+      -210deg,
+      white 0%, white 45%,
+      red 45%
+    ) 190px 140px / 100px 60px,
+    linear-gradient(
+      30deg,
+      white 0%, white 45%,
+      red 45%
+    ) 190px 80px / 100px 60px,
+    red;
+  
+  background-repeat: no-repeat;
+}
