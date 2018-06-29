@@ -23,3 +23,4 @@ Experiments in drawing and animating with pure CSS.
 19. [Twilio logo](/twilio) - [CodePen](https://codepen.io/trueskawka/pen/pVKQWr)
 20. [YouTube logo](/youtube) - [CodePen](https://codepen.io/trueskawka/pen/ZoRVyw)
 21. [Microsoft logo](/microsoft) - [CodePen](https://codepen.io/trueskawka/pen/mLKQPZ)
+22. [Instagram logo](/instagram) - [CodePen](https://codepen.io/trueskawka/pen/XqYyXV)
