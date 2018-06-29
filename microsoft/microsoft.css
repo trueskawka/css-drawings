@@ -1,0 +1,29 @@
+body {
+  background-color: white;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+  height: 400px;
+}
+
+.microsoft {
+  /* colors */
+  /* blue #00a1f1 */
+  /* green #7cbb00 */
+  /* yellow #ffbb00 */
+  /* red #f65314 */
+  height: 200px;
+  width: 200px;
+
+  background: #f65314;
+  
+  box-shadow:
+    210px 0 0 0 #7cbb00,
+    0px 210px 0 0 #00a1f1,
+    210px 210px 0 0 #ffbb00;
+}
