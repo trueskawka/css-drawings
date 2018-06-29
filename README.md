@@ -18,3 +18,4 @@ Experiments in drawing and animating with pure CSS.
 14. [GitLab logo](/gitlab) - [CodePen](https://codepen.io/trueskawka/pen/bvPVPb)
 15. [Git logo](/git) - [CodePen](https://codepen.io/trueskawka/pen/aYgvpm)
 16. [Dropbox logo](/dropbox) - [CodePen](https://codepen.io/trueskawka/pen/pLXVae)
+17. [Ubuntu logo](/ubuntu) - [CodePen](https://codepen.io/trueskawka/pen/mLKaLw)

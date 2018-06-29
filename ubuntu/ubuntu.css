@@ -1,0 +1,69 @@
+body {
+  background-color: white;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+  height: 400px;
+}
+
+.ubuntu {
+  /* colors */
+  /* orange #E95420 */
+  height: 400px;
+  width: 400px;
+  
+  color: #E95420;
+
+  border-radius: 50%;
+  
+  background:
+    linear-gradient(
+      -50deg,
+      transparent 0%, transparent 40%,
+      currentColor 42%, currentColor 58%,
+      transparent 58%
+    ) 106px 280px / 42px 50px,
+    linear-gradient(
+      50deg,
+      transparent 0%, transparent 40%,
+      currentColor 42%, currentColor 58%,
+      transparent 58%
+    ) 106px 80px / 42px 50px,
+    linear-gradient(
+      180deg,
+      transparent 0%, transparent 38%,
+      currentColor 36%, currentColor 58%,
+      transparent 58%
+    ) 306px 180px / 42px 50px,
+    radial-gradient(
+      farthest-side,
+      white 0%, white 65%,
+      #E95420 68%, #E95420 92%,
+      transparent 92%
+    ) 230px 305px / 70px 70px,
+    radial-gradient(
+      farthest-side,
+      white 0%, white 65%,
+      #E95420 68%, #E95420 92%,
+      transparent 92%
+    ) 235px 20px / 70px 70px,
+    radial-gradient(
+      farthest-side,
+      white 0%, white 65%,
+      #E95420 68%, #E95420 92%,
+      transparent 92%
+    ) 5px 160px / 70px 70px,
+    radial-gradient(
+      transparent 0%, transparent 38%,
+      white 38%, white 52%,
+      transparent 50%
+    ),
+    currentColor;
+  
+  background-repeat: no-repeat;
+}
