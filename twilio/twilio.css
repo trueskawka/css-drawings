@@ -1,0 +1,33 @@
+body {
+  background-color: white;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+  height: 400px;
+}
+
+.twilio {
+  /* colors */
+  /* red #F22F46 */
+  height: 400px;
+  width: 400px;
+
+  background: transparent;
+  border-radius: 50%;
+  
+  position: relative;
+  left: -400px;
+  
+  box-shadow:
+    460px 60px 0 -160px #F22F46,
+    350px 60px 0 -160px #F22F46,
+    460px -50px 0 -160px #F22F46,
+    350px -50px 0 -160px #F22F46,
+    400px 0 0 -40px white,
+    400px 0 0 0 #F22F46;
+}
